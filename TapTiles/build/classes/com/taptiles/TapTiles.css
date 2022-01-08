@@ -1,0 +1,30 @@
+/* 
+    Created on : 30 Dec 2021, 1:31:38 pm
+    Author     : Kai
+*/
+
+.label {
+    -fx-font-size: 24px;
+    -fx-text-alignment: center
+}
+
+.label .text {
+    -fx-stroke: white;
+    -fx-stroke-width: 1px;
+}
+
+.root {
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-font-size: 24px;
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+    -fx-border-insets: 3px;
+}
+
+.button:hover {
+    -fx-background-color: gray;
+}
